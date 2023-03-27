@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --bg-s1:linear-gradient(90deg, #030709 0%, #0712
+    18 23.45%, #082432 50.54%, #071218 75.16%, #030709 100%);
+}
+@font-face {
+    font-family: Minecraft-Bold;
+    src: url('../font/MinecraftBold.otf');
+}
+@font-face {
+    font-family: Minecraft-Bold-Italic;
+    src: url('../font/MinecraftBoldItalic.otf');
+}
+@font-face {
+    font-family: Minecraft-Evenings;
+    src: url('../font/MinecraftEvenings.ttf');
+}
+@font-face {
+    font-family: Minecraft-Italic;
+    src: url('../font/MinecraftItalic.otf');
+}
+@font-face {
+    font-family: Minecraft-Regular;
+    src: url('../font/MinecraftRegular.otf');
+}
+@font-face {
+    font-family: Minecraft-Ten;
+    src: url('../font/MinecraftTen.ttf');
+}
+html{
+    overflow: scroll;
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white-color);
+    
+}
